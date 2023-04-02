@@ -1,0 +1,133 @@
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-header {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: calc(100% - 150px);
+}
+
+.main-header img {
+  height: 75px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.main-header h1 {
+  display: inline-block;
+  font-size: 28px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.main-header p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Intro Section */
+
+.intro-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.intro-section h3 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.intro-section p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.intro-section span {
+  font-weight: bold;
+}
+
+/* Heading and Text */
+
+.heading-and-text {
+  padding: 40px 20px;
+}
+
+.heading-and-text h3 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.heading-and-text p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.heading-and-text a {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}

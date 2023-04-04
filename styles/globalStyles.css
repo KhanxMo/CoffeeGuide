@@ -8,7 +8,6 @@
     --colour2: #FFFFFF;
     --colour3: #9a6643;
     --colour4: #372d29;
-    /* --colour4: #333; */
 }
 
 /* GENERAL STYLING ----------------------------------------------------- */
@@ -40,7 +39,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: var(--colour1);
 }
 
 footer {
@@ -87,6 +85,7 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
+    color: var(--colour1);
 }
 
 
@@ -134,7 +133,7 @@ nav a:hover {
 
 .heading-and-text {
     text-align: left;
-    padding: 2rem;
+    padding: 30px;
 }
 
 .heading-and-text h3 {
@@ -144,6 +143,13 @@ nav a:hover {
 
 .heading-and-text p {
     margin-bottom: 1.5rem;
+}
+
+
+
+.issue {
+    text-align: left;
+    padding: 30px;
 }
 
 
@@ -157,7 +163,7 @@ nav a:hover {
 
 .button:hover {
     background-color: var(--colour2);
-    color: var(--colour4);
+    color: var(--colour1);
 }
 
 .welcome-section {
@@ -174,36 +180,84 @@ nav a:hover {
     background-color: var(--colour1);
     border-radius: 40px;
     color: var(--colour2);
+    text-align: center;
+}
+
+.outro-section a{
+    color: var(--colour2);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
 }
 
 /* Responsive styles */
 
 @media only screen and (max-width: 600px) {
 
-    .main-header {
+    body {
+        margin: 0px 0px;
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+
+    .landing-section {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
+        height: 100vh;    
+    }
+    
+    .hero-img{
+        padding: 40px;
+        width: 300px;
+        height: auto;
     }
 
-    .main-header img {
-        width: 80%;
-        max-width: 300px;
+    .right-heading-and-text{
+        width: 90%;
+
     }
 
-    .intro-section {
-        padding: 1rem;
-    }
 
-    .heading-and-text {
-        padding: 1rem;
+    nav{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 0px;
+        background-color: white;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
     }
 
     nav ul {
+        display: flex;
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
-    nav li {
-        padding: 0.5rem 0;
+
+    .feedback-form {
+        text-align: center;
     }
+    .feedback-form form{
+        padding: 10px 60px;
+    }
+
+    form textarea{
+        width: 70%;
+    }
+
+
 }

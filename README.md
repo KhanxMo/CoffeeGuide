@@ -1,2 +1,3 @@
 # CoffeeGuide
- COMP266 Final Project
+
+COMP266 Final Project

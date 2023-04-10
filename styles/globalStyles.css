@@ -296,7 +296,7 @@ button.darkModeButton:hover{
     justify-content: top;
     padding: 20px;
     width: 50%;
-    border-right: 1px solid var(--text);
+    border-right: 1px solid var(--accent);
 }
 
 

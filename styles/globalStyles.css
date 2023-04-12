@@ -156,10 +156,6 @@ nav a:hover {
 
 
 
-.issue {
-    text-align: left;
-    padding: 30px;
-}
 
 
 .button {
@@ -340,6 +336,38 @@ button.darkModeButton:hover{
 .recipe-container {
     padding: 20px;
 }
+
+
+.issue {
+    text-align: left;
+    padding: 5px 30px 5px 30px;
+}
+
+.accordion-header {
+    margin: 0;
+    cursor: pointer;
+    color: var(--background);
+    background-color: var(--primary);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+}
+.accordion-header.active {
+    border-radius: 10px 10px 0px 0px;
+}
+  
+.accordion-content {
+    display: none;
+    padding: 20px;
+    margin: 0;
+    border: 1px solid var(--accent);
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--accent);
+}
+
+
+
+
 
 
 

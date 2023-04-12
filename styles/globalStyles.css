@@ -310,6 +310,38 @@ button.darkModeButton:hover{
 }
 
 
+.recipe-container h2{
+    color: var(--primary);
+}
+
+.recipe-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.recipe-nav li {
+    margin-right: 20px;
+}
+
+.recipe-nav li.active {
+    font-weight: bold;
+}
+
+.recipe-tab {
+    display: none;
+}
+
+.recipe-tab.active {
+    display: block; 
+}
+
+.recipe-container {
+    padding: 20px;
+}
+
+
 
 /* Responsive styles */
 
@@ -350,7 +382,7 @@ button.darkModeButton:hover{
         margin: 0px 10px;
     }
 
-    .recipe{
+    .recipe-container{
         margin: 0px 10px;
         text-align: left;
         padding: 10px 20px;

@@ -433,10 +433,11 @@ button.darkModeButton:hover{
     }
 
 
-    nav{
-        position: relative;
-        top: 0;
-        left: 0;
+
+    .navbar{
+        position: sticky;
+        top: 0px;
+        left: 0px;
         width: 100%;
         padding: 20px 0px;
         background-color: var(--background);
@@ -444,12 +445,22 @@ button.darkModeButton:hover{
         text-align: center;
     }
 
-    nav ul {
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-links.active {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         margin: 0;
         padding: 0;
+    }
+
+    .progress-bar{
+        position: fixed;
+        top: 0px;
+        z-index: 999;
     }
 
     .welcome-section{
@@ -482,10 +493,6 @@ button.darkModeButton:hover{
         left: 30px;
     }
 
-    .progress-bar{
-        position: fixed;
-        top: 0px;
-        z-index: 999;
-    }
+
 
 }

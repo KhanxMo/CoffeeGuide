@@ -404,6 +404,16 @@ button.darkModeButton:hover{
 }
 
 
+.tweets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.twitter-timeline{
+    width: 75%;
+}
+
 
 
 /* Responsive styles */

@@ -1,12 +1,4 @@
 
-/*
-
-const apiKey = 'vX51sD0k2pgkBtQnWr1ye6c2b';
-const apiSecretKey = 'LFJEa39qy4dH3jHZfG5AOEFdNyAAI3xH5ogIUyQdSJQ1oIpGmi';
-const accessToken = '1646948925587202068-dcZnKEDbcgY64sL1640O2OlrCLvsEi';
-const accessTokenSecret = 'j0gAFifZtRvZn2Uoylawh1wVPl8KOpdX4Avl2vYeLEUd3';
-
-*/
 
 
 require('dotenv').config();
